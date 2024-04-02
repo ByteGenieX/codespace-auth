@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config() // envirnoment file declear for used
 require("./database/database.js").connect()
 const express = require('express')
 const bcrypt = ('bcryptjs')
